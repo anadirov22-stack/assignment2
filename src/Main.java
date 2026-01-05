@@ -9,11 +9,11 @@ public class Main {
 
         ArrayList<Person> persons = new ArrayList<>();
 
-        persons.add(new Employee("John", "Lennon", "Manager", 27045.78));
-        persons.add(new Employee("George", "Harrison", "Developer", 50000.00));
+        persons.add(new Employee("Gulmira", "Bekbolatova", "Manager", 170000));
+        persons.add(new Employee("Zhanar", "Ramazanova", "Developer", 345000));
 
-        persons.add(new Student("Ringo", "Starr", 2.1));
-        persons.add(new Student("Paul", "McCartney", 3.5));
+        persons.add(new Student("Darkhan", "Malikov", 2.1));
+        persons.add(new Student("Ali", "Nadirov", 3.2));
 
         Collections.sort(persons);
 
